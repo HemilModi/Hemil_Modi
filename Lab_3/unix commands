@@ -1,0 +1,35 @@
+1 Use the cat command, and display all the .txt files in the current directory on the screen at one go.
+	$cat *.txt > outfile
+
+
+2 To start any web browser from the command prompt.
+	$firefox
+
+
+3 To list lines that do not include "and" in a text file.
+	$grep -v “and” filename
+
+4 To compress all .dat files in the current directory.
+	$gzip *.dat
+
+   To decompress all the .dat files .
+	$gunzip *.dat.gz
+
+
+5 To list all the files in the present working directory including the hidden files.
+	$ls -a
+
+6 To show all the files in the subdirectories of a directory.
+	$ls -R
+
+7. To make changes into environmental variables.
+
+8. To sort the lines of a file into reverse order.
+	$sort –r
+
+9. To create a hard link to myfile.txt in the current directory assuming that it is not public_html.
+	$ln myfile.txt
+
+10. To search for a certain pattern in the files existing in the current directory.
+	$grap text *
+
