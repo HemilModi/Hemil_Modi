@@ -1,0 +1,4 @@
+ans=$(($a*$a))
+ 			echo "$ans"
+ 			echo ""0" to exit "1" to continue"
+ 			read choice		
